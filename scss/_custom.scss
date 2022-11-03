@@ -1,0 +1,22 @@
+@import "../node_modules/bootstrap/scss/variables";
+
+//按鈕顏色
+.btn-primary{
+    color: $light;
+}
+.btn-primary:hover,.btn-primary:focus{
+    color: $light;
+}
+.btn-secondary{
+    color: $primary;
+}
+.btn-secondary:hover,.btn-primary:focus{
+    color: $primary;
+}
+
+//container
+.container-fixed{
+    max-width: 1200px;
+    padding:0px 24px;
+    margin: 0 auto;
+}
