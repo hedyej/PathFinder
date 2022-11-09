@@ -1,17 +1,19 @@
 @import "../node_modules/bootstrap/scss/variables";
 
+
+
 //按鈕顏色
-.btn-primary{
+.btn-primary,.btn-primary:hover,.btn-primary:focus,.btn-primary:active{
     color: $light;
 }
-.btn-primary:hover,.btn-primary:focus{
+//active樣式動不了
+
+.btn-secondary,.btn-secondary:hover,.btn-primary:focus,.btn-primary:active{
+    color: $primary;
+}
+
+.btn-accent,.btn-secondary:hover,.btn-primary:focus,.btn-primary:active{
     color: $light;
-}
-.btn-secondary{
-    color: $primary;
-}
-.btn-secondary:hover,.btn-primary:focus{
-    color: $primary;
 }
 
 //container
@@ -19,4 +21,30 @@
     max-width: 1200px;
     padding:0px 24px;
     margin: 0 auto;
+}
+
+.display-img{
+    // width: 100%;
+    // height: 480px;
+    border-radius:  16px;
+    object-fit: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 1200px;
+    height: 440px;
+}
+
+.shadow-card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-pilled{
+    border-radius: 16px;
+    background: $white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 24px;
+}
+
+.bg-green{
+    background: #F0F8F5;
 }

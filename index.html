@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="scss/all.css">
+    
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <div class="container-fixed d-flex justify-content-between py-4">
+    <!-- <nav>
+        <div class="container-fixed d-flex justify-content-between py-3">
             <a class="navbar-brand" href="#">
                 <img src="src/img/logo.svg" width="200" height="36" alt="">
             </a>
@@ -20,12 +24,25 @@
         </div>
     </nav>
 
-    <main class="container-fixed">
-        <i class="bi-alarm"></i>
-        <button type="button" class="btn btn-secondary mr-3">Primary</button>
-        <span>測試側ㄕ</span>
-    </main>
-    <section id="last-coment"></section>
+    <main class="container-fixed py-5">
+        <img class="display-img shadow-card" src='src/img/displayImg.svg'>
+    </main> -->
+    <section id="last-coment" class="container-fixed bg-green">
+            <div class="row row-cols-2 g-4">
+                <div class="col h-100">
+                    <div class="card-pilled">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p class="mb-1">title</p>
+                                <p>des</p>
+                            </div>
+                            <p>test</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
     <section id="cta-section"></section>
     <footer></footer>
 </body>
